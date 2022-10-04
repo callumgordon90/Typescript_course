@@ -8,5 +8,17 @@ let is_published: boolean = true;
 
 let level;
 
+// arrays
 
-let numbers = [1, 2, 3, '4', 5];
+let numbers: number[] = [1, 2, 3, '4', 5];
+
+numbers.forEach(n => n.)
+
+//tuples
+
+// 1, 'Callum'
+
+let user: [number, string] = [1, 'Callum'];
+
+
+let man = 'louis';
