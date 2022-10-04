@@ -38,4 +38,31 @@ enum Size { Small = 0, Medium = 1, Large = 2 };
 
 let mySize: Size = Size.Medium;
 
-console.log(mySize);
+console.log(mySize);ç
+
+// functions
+
+function calculateTax(income: number, taxYear: number): number {
+    if ((taxYear || 2022) < 2022)
+        return income * 1.2;
+    return income * 1.3;
+}
+
+calculateTax(10_000, 2022)
+
+// Objects: 
+
+let employee = { 
+    id: number,
+    name?: string,
+    retire: (date: Date) => void  
+} = { 
+    id: 1, 
+    name: 'Callum'
+    retire: (date: Date) => {
+        console.log(date);
+    }  
+ };
+
+
+employee.name = 'Callum' // this is valid in javascript but not in typescript
